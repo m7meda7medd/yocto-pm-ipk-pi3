@@ -72110,6 +72110,188 @@ HomePage: http://vala-project.org
 License: LGPL-2.1-only
 Priority: optional
 
+Package: vim-common
+Version: 9.1.0764-r0
+Section: console/utils
+Architecture: cortexa53
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 9ae1158ceb8a650d79003304dcf46e9b
+SHA256sum: eb5208e8170c3ef5253bb887475289508c7fc36f0e37e1206ef668486806b69f
+Size: 3006468
+Filename: vim-common_9.1.0764-r0_cortexa53.ipk
+Source: vim_9.1.bb
+Description: Vi IMproved - enhanced vi editor
+OE: vim
+HomePage: https://www.vim.org/
+License: Vim
+Priority: optional
+
+Package: vim-dbg
+Version: 9.1.0764-r0
+Recommends: cairo-dbg, gdk-pixbuf-dbg, glib-2.0-dbg, glibc-dbg, gtk+3-dbg, libacl-dbg, libice-dbg, libsm-dbg, libx11-dbg, libxt-dbg, ncurses-libtinfo-dbg, pango-dbg
+Section: devel
+Architecture: cortexa53
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 7112328e7d723baf041068a048154add
+SHA256sum: 43413f2e97d2143cdf52c0c05c1505f91f34e10c04717d193e62c296ca7fba4d
+Size: 3868066
+Filename: vim-dbg_9.1.0764-r0_cortexa53.ipk
+Source: vim_9.1.bb
+Description: Vi IMproved - enhanced vi editor - Debugging files
+OE: vim
+HomePage: https://www.vim.org/
+License: Vim
+Priority: optional
+
+Package: vim-dev
+Version: 9.1.0764-r0
+Depends: vim (= 9.1.0764-r0)
+Recommends: acl-dev, cairo-dev, desktop-file-utils-dev, gdk-pixbuf-dev, glib-2.0-dev, glibc-dev, gtk+3-dev, libacl-dev, libice-dev, libsm-dev, libx11-dev, libxt-dev, ncurses-dev, ncurses-libtinfo-dev, ncurses-terminfo-base-dev, pango-dev, update-alternatives-opkg-dev, xt-dev
+Section: devel
+Architecture: cortexa53
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 2ce212d96561b609db226c9db4179e29
+SHA256sum: 9b0be34256a526133fcf27e1255e5918f2d7e54ab56e1c3e38f48f34aa67db07
+Size: 1040
+Filename: vim-dev_9.1.0764-r0_cortexa53.ipk
+Source: vim_9.1.bb
+Description: Vi IMproved - enhanced vi editor - Development files
+OE: vim
+HomePage: https://www.vim.org/
+License: Vim
+Priority: optional
+
+Package: vim-doc
+Version: 9.1.0764-r0
+Section: doc
+Architecture: cortexa53
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 83dc86ea94750fad37c35c1f868721d4
+SHA256sum: 7f0aa97c55e2cdd7fce4d7bdddd70e8eee470c53358dbd2f28d26457b39ebb70
+Size: 113464
+Filename: vim-doc_9.1.0764-r0_cortexa53.ipk
+Source: vim_9.1.bb
+Description: Vi IMproved - enhanced vi editor - Documentation files
+OE: vim
+HomePage: https://www.vim.org/
+License: Vim
+Priority: optional
+
+Package: vim-help
+Version: 9.1.0764-r0
+Section: console/utils
+Architecture: cortexa53
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 5033ae62186e7f71e59d3edbe554eaa1
+SHA256sum: 3b87d7110e6bd8de00baba51c21e7306790bcf64388b60219cfd766e3576683b
+Size: 2216106
+Filename: vim-help_9.1.0764-r0_cortexa53.ipk
+Source: vim_9.1.bb
+Description: Vi IMproved - enhanced vi editor
+OE: vim
+HomePage: https://www.vim.org/
+License: Vim
+Priority: optional
+
+Package: vim-src
+Version: 9.1.0764-r0
+Section: devel
+Architecture: cortexa53
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: d2a313b114309c55bb6b6f2452c429eb
+SHA256sum: b5e1659637d7c312a748c10de4502fef89a40c7dc222c88b76ac43d45d2e6a48
+Size: 2255592
+Filename: vim-src_9.1.0764-r0_cortexa53.ipk
+Source: vim_9.1.bb
+Description: Vi IMproved - enhanced vi editor - Source files
+OE: vim
+HomePage: https://www.vim.org/
+License: Vim
+Priority: optional
+
+Package: vim-syntax
+Version: 9.1.0764-r0
+Section: console/utils
+Architecture: cortexa53
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 1a8fca807c35d59680eca607ef5663e8
+SHA256sum: 4525312fa31c552b665b17ab4f36d534933d00560c6ea8de12353aa80a0d2c5e
+Size: 1356198
+Filename: vim-syntax_9.1.0764-r0_cortexa53.ipk
+Source: vim_9.1.bb
+Description: Vi IMproved - enhanced vi editor
+OE: vim
+HomePage: https://www.vim.org/
+License: Vim
+Priority: optional
+
+Package: vim-tools
+Version: 9.1.0764-r0
+Section: console/utils
+Architecture: cortexa53
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 1f5363bea42351df25f1e1233c1c1baa
+SHA256sum: 5ebb1647620421e44e30d22a0724a6d8e2cbfbd2f809203fd1b68ec3266775d3
+Size: 24044
+Filename: vim-tools_9.1.0764-r0_cortexa53.ipk
+Source: vim_9.1.bb
+Description: Vi IMproved - enhanced vi editor
+OE: vim
+HomePage: https://www.vim.org/
+License: Vim
+Priority: optional
+
+Package: vim-tutor
+Version: 9.1.0764-r0
+Section: console/utils
+Architecture: cortexa53
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: f377ce8601bd85bd21cc2b1020c61045
+SHA256sum: 5722ff41e627ad933aaaee891e4f8f5e20fa2d116216e01f89aa5abeb0908694
+Size: 434202
+Filename: vim-tutor_9.1.0764-r0_cortexa53.ipk
+Source: vim_9.1.bb
+Description: Vi IMproved - enhanced vi editor
+OE: vim
+HomePage: https://www.vim.org/
+License: Vim
+Priority: optional
+
+Package: vim-vimrc
+Version: 9.1.0764-r0
+Section: console/utils
+Architecture: cortexa53
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: b557d41c002d859cac4864d05e998a2b
+SHA256sum: 1b8113f9d7a1b325accccfce94c2d00b9122c30697b562307641ae1fb0b996b8
+Size: 1794
+Filename: vim-vimrc_9.1.0764-r0_cortexa53.ipk
+Source: vim_9.1.bb
+Description: Vi IMproved - enhanced vi editor
+OE: vim
+HomePage: https://www.vim.org/
+License: Vim
+Priority: optional
+
+Package: vim
+Version: 9.1.0764-r0
+Depends: desktop-file-utils, libacl1 (>= 2.3.1), libc6 (>= 2.35), libcairo2 (>= 1.16.0), libgdk-pixbuf-2.0-0 (>= 2.42.10), libglib-2.0-0 (>= 2.72.3), libgtk-3.0 (>= 3.24.34), libice6 (>= 1.0.10), libsm6 (>= 1.2.3), libtinfo5 (>= 6.3+20220423), libx11-6 (>= 1.7.3.1), libxt6 (>= 1.2.1), ncurses-terminfo-base, pango (>= 1.50.4), update-alternatives-opkg
+Suggests: diffutils
+Recommends: vim-common, vim-help, vim-syntax, vim-tutor, vim-vimrc
+Section: console/utils
+Architecture: cortexa53
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 26d087d481ae55c416760eb76aad2e6b
+SHA256sum: 927004e49327a106867b1e52efd88045990e13388d6540dbcc08af19b2720ae8
+Size: 1404068
+Filename: vim_9.1.0764-r0_cortexa53.ipk
+Source: vim_9.1.bb
+Description: Vi IMproved - enhanced vi editor
+OE: vim
+HomePage: https://www.vim.org/
+License: Vim
+Priority: optional
+
 Package: wiper
 Version: 9.63-r0
 Depends: bash, coreutils, gawk
