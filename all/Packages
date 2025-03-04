@@ -1,0 +1,559 @@
+Package: alsa-topology-conf
+Version: 1.2.5.1-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 78a54692dcbbd825a0d5351535a9faf1
+SHA256sum: 6bf898781ea82a030410b31073d8ec7a1640b8f87c4cdb2791ceadf3fd89c34f
+Size: 10838
+Filename: alsa-topology-conf_1.2.5.1-r0_all.ipk
+Source: alsa-topology-conf_1.2.5.1.bb
+Description: ALSA topology configuration files
+OE: alsa-topology-conf
+HomePage: https://alsa-project.org
+License: BSD-3-Clause
+Priority: optional
+
+Package: alsa-ucm-conf
+Version: 1.2.6.3-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: cb0484789f2a7493260f13c8942ad3ba
+SHA256sum: e6fd62297fed129a82561e23bb4a88d11ca9fd089ae455f63f74e8ce88b3e9f1
+Size: 30368
+Filename: alsa-ucm-conf_1.2.6.3-r0_all.ipk
+Source: alsa-ucm-conf_1.2.6.3.bb
+Description: ALSA Use Case Manager configuration
+OE: alsa-ucm-conf
+HomePage: https://alsa-project.org
+License: BSD-3-Clause
+Priority: optional
+
+Package: autoconf-archive-doc
+Version: 2022.02.11-r0
+Section: doc
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: f2166c639e21e02ac8f4c1e4c7e70d11
+SHA256sum: ce890d60d3f7c69eafff97fa6edd568d36ec05810d134a74f8b1f529ccd3ba4e
+Size: 16850
+Filename: autoconf-archive-doc_2022.02.11-r0_all.ipk
+Source: autoconf-archive_2022.02.11.bb
+Description: a collection of freely re-usable Autoconf macros - Documentation files
+OE: autoconf-archive
+HomePage: http://www.gnu.org/software/autoconf-archive/
+License: GPL-3.0-with-autoconf-exception
+Priority: optional
+
+Package: autoconf-archive
+Version: 2022.02.11-r0
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 9f0a6349798422378157ec3d38283193
+SHA256sum: a9401b723e1857066b18c734c9a3565b229c7fa4f9b9e3a61de32c5e61d76923
+Size: 313690
+Filename: autoconf-archive_2022.02.11-r0_all.ipk
+Source: autoconf-archive_2022.02.11.bb
+Description: a collection of freely re-usable Autoconf macros
+OE: autoconf-archive
+HomePage: http://www.gnu.org/software/autoconf-archive/
+License: GPL-3.0-with-autoconf-exception
+Priority: optional
+
+Package: bluez-firmware-rpidistro-bcm43430a1-hcd
+Version: 1.2-4+rpt8-r0
+Depends: bluez-firmware-rpidistro-cypress-license
+Replaces: linux-firmware-bcm43430a1-hcd
+Conflicts: linux-firmware-bcm43430a1-hcd
+Section: kernel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: c4b538e52d6b68fe1b202c0579768828
+SHA256sum: 0318c6139da1b8cd67c9e53b73f6fab68b17955b2dc4e7b7b79f4ab115cd1504
+Size: 21128
+Filename: bluez-firmware-rpidistro-bcm43430a1-hcd_1.2-4+rpt8-r0_all.ipk
+Source: bluez-firmware-rpidistro_git.bb
+Description: Linux kernel Bluetooth firmware files from Raspbian distribution
+OE: bluez-firmware-rpidistro
+HomePage: https://github.com/RPi-Distro/bluez-firmware
+License: Firmware-cypress-rpidistro
+Priority: optional
+
+Package: bluez-firmware-rpidistro-bcm43430b0-hcd
+Version: 1.2-4+rpt8-r0
+Depends: bluez-firmware-rpidistro-cypress-license
+Replaces: linux-firmware-bcm43430b0-hcd
+Conflicts: linux-firmware-bcm43430b0-hcd
+Section: kernel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 5cbd09868d12eb57eaa212b3bb9fc04f
+SHA256sum: 4b42d980d2878eb4fba5838339dc78b80d701a68470e2035566c1d8c49be9bf0
+Size: 30408
+Filename: bluez-firmware-rpidistro-bcm43430b0-hcd_1.2-4+rpt8-r0_all.ipk
+Source: bluez-firmware-rpidistro_git.bb
+Description: Linux kernel Bluetooth firmware files from Raspbian distribution
+OE: bluez-firmware-rpidistro
+HomePage: https://github.com/RPi-Distro/bluez-firmware
+License: Firmware-cypress-rpidistro
+Priority: optional
+
+Package: bluez-firmware-rpidistro-bcm4345c0-hcd
+Version: 1.2-4+rpt8-r0
+Depends: bluez-firmware-rpidistro-cypress-license
+Section: kernel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 2354750f53287b542242d4cc6238fef8
+SHA256sum: a59a9f9db17db71baeef80cdb9e61fc6a600383fda03856164138c44d8e41b48
+Size: 39198
+Filename: bluez-firmware-rpidistro-bcm4345c0-hcd_1.2-4+rpt8-r0_all.ipk
+Source: bluez-firmware-rpidistro_git.bb
+Description: Linux kernel Bluetooth firmware files from Raspbian distribution
+OE: bluez-firmware-rpidistro
+HomePage: https://github.com/RPi-Distro/bluez-firmware
+License: Firmware-cypress-rpidistro
+Priority: optional
+
+Package: bluez-firmware-rpidistro-bcm4345c5-hcd
+Version: 1.2-4+rpt8-r0
+Depends: bluez-firmware-rpidistro-cypress-license
+Section: kernel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: d09c614292086972621d0ba04e50ecf0
+SHA256sum: 3ddde19724e65565110d19804823dcd48a4f9c51736182c4db8186ee14a3e009
+Size: 34978
+Filename: bluez-firmware-rpidistro-bcm4345c5-hcd_1.2-4+rpt8-r0_all.ipk
+Source: bluez-firmware-rpidistro_git.bb
+Description: Linux kernel Bluetooth firmware files from Raspbian distribution
+OE: bluez-firmware-rpidistro
+HomePage: https://github.com/RPi-Distro/bluez-firmware
+License: Firmware-cypress-rpidistro
+Priority: optional
+
+Package: bluez-firmware-rpidistro-cypress-license
+Version: 1.2-4+rpt8-r0
+Section: kernel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: d405676349bdb8dd8c0c8d4f17ecbb17
+SHA256sum: 60c672083e76f4f1c7db1de4038c9c38059e697a9c9b46c7ed46798b85a17324
+Size: 2084
+Filename: bluez-firmware-rpidistro-cypress-license_1.2-4+rpt8-r0_all.ipk
+Source: bluez-firmware-rpidistro_git.bb
+Description: Linux kernel Bluetooth firmware files from Raspbian distribution
+OE: bluez-firmware-rpidistro
+HomePage: https://github.com/RPi-Distro/bluez-firmware
+License: Firmware-cypress-rpidistro
+Priority: optional
+
+Package: ca-certificates-dbg
+Version: 20211016-r0
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 137757998360eaa655567dd8cdbb7d5b
+SHA256sum: f464ef189f4290b247e7496ca57b81d10067b1a5f75cb31bacdc232c7ec6bd89
+Size: 802
+Filename: ca-certificates-dbg_20211016-r0_all.ipk
+Source: ca-certificates_20211016.bb
+Description: Common CA certificates - Debugging files
+OE: ca-certificates
+HomePage: http://packages.debian.org/sid/ca-certificates
+License: GPL-2.0-or-later & MPL-2.0
+Priority: optional
+
+Package: ca-certificates-dev
+Version: 20211016-r0
+Depends: ca-certificates (= 20211016-r0)
+Recommends: openssl-bin-dev, openssl-dev
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 4513345819bb9a4281635b28f731d3ed
+SHA256sum: cabbd5ec6d0c540c40bef613baacb4797efc3a797a1eef0e762cfdb4cd7769b9
+Size: 848
+Filename: ca-certificates-dev_20211016-r0_all.ipk
+Source: ca-certificates_20211016.bb
+Description: Common CA certificates - Development files
+OE: ca-certificates
+HomePage: http://packages.debian.org/sid/ca-certificates
+License: GPL-2.0-or-later & MPL-2.0
+Priority: optional
+
+Package: ca-certificates-doc
+Version: 20211016-r0
+Section: doc
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 0f8f664478de21a492e5f20c05d53330
+SHA256sum: cb44ffbf15efabb57bd351ca8de2c6d70e064300d5d2ba3f499bd8c3cfe17f1b
+Size: 2096
+Filename: ca-certificates-doc_20211016-r0_all.ipk
+Source: ca-certificates_20211016.bb
+Description: Common CA certificates - Documentation files
+OE: ca-certificates
+HomePage: http://packages.debian.org/sid/ca-certificates
+License: GPL-2.0-or-later & MPL-2.0
+Priority: optional
+
+Package: ca-certificates
+Version: 20211016-r0
+Depends: openssl, openssl-bin
+Section: misc
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: e18780bce4e7ef4c17a70551f183c8b7
+SHA256sum: c2c41ac0de8d89fd8b7a9931bcfaea2e8ad2ac65f398cc05e043e6ab574675a8
+Size: 116300
+Filename: ca-certificates_20211016-r0_all.ipk
+Source: ca-certificates_20211016.bb
+Description: Common CA certificates
+OE: ca-certificates
+HomePage: http://packages.debian.org/sid/ca-certificates
+License: GPL-2.0-or-later & MPL-2.0
+Priority: optional
+
+Package: linux-firmware-rpidistro-bcm43430
+Version: 20210315-3+rpt4-r0
+Depends: linux-firmware-rpidistro-broadcom-license
+Replaces: linux-firmware-bcm43430, linux-firmware-raspbian-bcm43430
+Conflicts: linux-firmware-bcm43430, linux-firmware-raspbian-bcm43430
+Section: kernel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 8c8aafada813b7f8da1b890374c49a38
+SHA256sum: 342e99d993ca552853b1696b8b4233fc24dc48254289e82ea19ea35c3ae5ef2f
+Size: 236480
+Filename: linux-firmware-rpidistro-bcm43430_20210315-3+rpt4-r0_all.ipk
+Source: linux-firmware-rpidistro_git.bb
+Description: Linux kernel firmware files from Raspbian distribution
+OE: linux-firmware-rpidistro
+HomePage: https://github.com/RPi-Distro/firmware-nonfree
+License: Firmware-broadcom_bcm43xx-rpidistro
+Priority: optional
+
+Package: linux-firmware-rpidistro-bcm43436
+Version: 20210315-3+rpt4-r0
+Depends: linux-firmware-rpidistro-broadcom-license
+Replaces: linux-firmware-bcm43436, linux-firmware-raspbian-bcm43436
+Conflicts: linux-firmware-bcm43436, linux-firmware-raspbian-bcm43436
+Section: kernel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 23580eb9009772207d243acb17bd160c
+SHA256sum: 6022c7d3a747afdfb2a77ba2d1ca97c62f034ca587c200d4096d11b384fc7ad4
+Size: 228740
+Filename: linux-firmware-rpidistro-bcm43436_20210315-3+rpt4-r0_all.ipk
+Source: linux-firmware-rpidistro_git.bb
+Description: Linux kernel firmware files from Raspbian distribution
+OE: linux-firmware-rpidistro
+HomePage: https://github.com/RPi-Distro/firmware-nonfree
+License: Firmware-broadcom_bcm43xx-rpidistro
+Priority: optional
+
+Package: linux-firmware-rpidistro-bcm43436s
+Version: 20210315-3+rpt4-r0
+Depends: linux-firmware-rpidistro-broadcom-license
+Replaces: linux-firmware-bcm43436s, linux-firmware-raspbian-bcm43436s
+Conflicts: linux-firmware-bcm43436s, linux-firmware-raspbian-bcm43436s
+Section: kernel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 958dcf0e27e9767261e868e1e6a08a61
+SHA256sum: cebc450f4d2bb600a22197008de76fb71f7dc902dc626577619d48b2f0dd02dc
+Size: 249852
+Filename: linux-firmware-rpidistro-bcm43436s_20210315-3+rpt4-r0_all.ipk
+Source: linux-firmware-rpidistro_git.bb
+Description: Linux kernel firmware files from Raspbian distribution
+OE: linux-firmware-rpidistro
+HomePage: https://github.com/RPi-Distro/firmware-nonfree
+License: Firmware-broadcom_bcm43xx-rpidistro
+Priority: optional
+
+Package: linux-firmware-rpidistro-bcm43455
+Version: 20210315-3+rpt4-r0
+Depends: linux-firmware-rpidistro-broadcom-license
+Replaces: linux-firmware-bcm43455, linux-firmware-raspbian-bcm43455
+Conflicts: linux-firmware-bcm43455, linux-firmware-raspbian-bcm43455
+Section: kernel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: d8859c1b28cc8f9ffef23033d8e34cec
+SHA256sum: e96c7c07f83f68c0315c4a49eb9deed078d010a48752236f1869afdcd989fb7b
+Size: 421288
+Filename: linux-firmware-rpidistro-bcm43455_20210315-3+rpt4-r0_all.ipk
+Source: linux-firmware-rpidistro_git.bb
+Description: Linux kernel firmware files from Raspbian distribution
+OE: linux-firmware-rpidistro
+HomePage: https://github.com/RPi-Distro/firmware-nonfree
+License: Firmware-broadcom_bcm43xx-rpidistro
+Priority: optional
+
+Package: linux-firmware-rpidistro-bcm43456
+Version: 20210315-3+rpt4-r0
+Depends: linux-firmware-rpidistro-broadcom-license
+Replaces: linux-firmware-bcm43456, linux-firmware-raspbian-bcm43456
+Conflicts: linux-firmware-bcm43456, linux-firmware-raspbian-bcm43456
+Section: kernel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 25a250a5e73dd54da5e9c7c650f624b4
+SHA256sum: 943e5c2fd78b1c5d2c55d3e227695c27197ae380b916e41b199e9026d1161c25
+Size: 273400
+Filename: linux-firmware-rpidistro-bcm43456_20210315-3+rpt4-r0_all.ipk
+Source: linux-firmware-rpidistro_git.bb
+Description: Linux kernel firmware files from Raspbian distribution
+OE: linux-firmware-rpidistro
+HomePage: https://github.com/RPi-Distro/firmware-nonfree
+License: Firmware-broadcom_bcm43xx-rpidistro
+Priority: optional
+
+Package: linux-firmware-rpidistro-broadcom-license
+Version: 20210315-3+rpt4-r0
+Section: kernel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: d0584452d913167bc36464726af2af60
+SHA256sum: 2b0b03790ce6abc09b867e826d188899ea1245ac45a70786e25f9e823364f646
+Size: 5402
+Filename: linux-firmware-rpidistro-broadcom-license_20210315-3+rpt4-r0_all.ipk
+Source: linux-firmware-rpidistro_git.bb
+Description: Linux kernel firmware files from Raspbian distribution
+OE: linux-firmware-rpidistro
+HomePage: https://github.com/RPi-Distro/firmware-nonfree
+License: Firmware-broadcom_bcm43xx-rpidistro
+Priority: optional
+
+Package: netbase-dbg
+Version: 1:6.3-r0
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: d42d001c09c80120cddd3cdacf4c26dc
+SHA256sum: b75f49c3166b9d10e5ec891c70e539c91e8cfa89b00d5e6d7157308701397d99
+Size: 740
+Filename: netbase-dbg_6.3-r0_all.ipk
+Source: netbase_6.3.bb
+Description: Basic TCP/IP networking support - Debugging files
+OE: netbase
+HomePage: http://packages.debian.org/netbase
+License: GPL-2.0-only
+Priority: optional
+
+Package: netbase-dev
+Version: 1:6.3-r0
+Depends: netbase (= 1:6.3-r0)
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: fbf1eddde2b6f1140f813e5d11661a10
+SHA256sum: fef332f39957478b868ceae6c0c27bfa7ab2fa07c598a9ce96a5fa9e3b029c46
+Size: 766
+Filename: netbase-dev_6.3-r0_all.ipk
+Source: netbase_6.3.bb
+Description: Basic TCP/IP networking support - Development files
+OE: netbase
+HomePage: http://packages.debian.org/netbase
+License: GPL-2.0-only
+Priority: optional
+
+Package: netbase
+Version: 1:6.3-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 1aa685f58276afadb3334e5f4e7783eb
+SHA256sum: 4777d0783ec7145069ec4ac02a4949a1352c38e07c4614da7aaddefe9ddde82b
+Size: 8268
+Filename: netbase_6.3-r0_all.ipk
+Source: netbase_6.3.bb
+Description: Basic TCP/IP networking support
+OE: netbase
+HomePage: http://packages.debian.org/netbase
+License: GPL-2.0-only
+Priority: optional
+
+Package: packagegroup-core-ssh-openssh-dbg
+Version: 1.0-r1
+Recommends: openssh-dbg
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 6c448f9eff2803218ac38a4b097aa1f1
+SHA256sum: 94da44f94ea30ff7bae25c72bd6a67eade3aaaf29c8a42015a70d0320bc7a8a1
+Size: 686
+Filename: packagegroup-core-ssh-openssh-dbg_1.0-r1_all.ipk
+Source: packagegroup-core-ssh-openssh.bb
+Description: OpenSSH SSH client/server - Debugging files
+OE: packagegroup-core-ssh-openssh
+License: MIT
+Priority: optional
+
+Package: packagegroup-core-ssh-openssh-dev
+Version: 1.0-r1
+Depends: packagegroup-core-ssh-openssh (= 1.0-r1)
+Recommends: openssh-dev
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 7c615d226526590c6b69d185feb5bdca
+SHA256sum: a0a5f0af2291054c97c366e588fcaea46dbe62595cca997f107a548b68693765
+Size: 714
+Filename: packagegroup-core-ssh-openssh-dev_1.0-r1_all.ipk
+Source: packagegroup-core-ssh-openssh.bb
+Description: OpenSSH SSH client/server - Development files
+OE: packagegroup-core-ssh-openssh
+License: MIT
+Priority: optional
+
+Package: packagegroup-core-ssh-openssh
+Version: 1.0-r1
+Depends: openssh
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 00cc0cb640e2899a23879745849348e8
+SHA256sum: 6df668648ddf9ac114e222b081ac065aa1ff09e2a38cb91b30747e2e692bb932
+Size: 616
+Filename: packagegroup-core-ssh-openssh_1.0-r1_all.ipk
+Source: packagegroup-core-ssh-openssh.bb
+Description: OpenSSH SSH client/server
+OE: packagegroup-core-ssh-openssh
+License: MIT
+Priority: optional
+
+Package: run-postinsts-dbg
+Version: 1.0-r10
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: a40387669b2e11b153eccdc5de92c5c3
+SHA256sum: 6944bcf592268c5ac281ceb52676e00065bfb0478f787eb9ebbd6c3fc41c0dc9
+Size: 686
+Filename: run-postinsts-dbg_1.0-r10_all.ipk
+Source: run-postinsts_1.0.bb
+Description: Runs postinstall scripts on first boot of the target device - Debugging files
+OE: run-postinsts
+License: MIT
+Priority: optional
+
+Package: run-postinsts-dev
+Version: 1.0-r10
+Depends: run-postinsts (= 1.0-r10)
+Recommends: initscripts-dev, update-rc.d-dev
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 7f0c81f4af2a12a05b412fc25d7bf0c8
+SHA256sum: 2629f3d42a79288571d049e4ef4ec4efc24ad8761f874e7f3edb79ba066f51de
+Size: 744
+Filename: run-postinsts-dev_1.0-r10_all.ipk
+Source: run-postinsts_1.0.bb
+Description: Runs postinstall scripts on first boot of the target device - Development files
+OE: run-postinsts
+License: MIT
+Priority: optional
+
+Package: run-postinsts
+Version: 1.0-r10
+Recommends: update-rc.d
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 8e77459d177d886b7753c67c53a22b89
+SHA256sum: e07df8a99e49cb349002910afeb80088c979196f169a585b104715bee40eb476
+Size: 1876
+Filename: run-postinsts_1.0-r10_all.ipk
+Source: run-postinsts_1.0.bb
+Description: Runs postinstall scripts on first boot of the target device
+OE: run-postinsts
+License: MIT
+Priority: optional
+
+Package: update-rc.d-dbg
+Version: 0.8-r0
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 663af903bbe40246015e9a2ff571c837
+SHA256sum: d34a72bea02b40862393f99980118b0ff1f586aa9c12acd76b853f91ff8e7161
+Size: 764
+Filename: update-rc.d-dbg_0.8-r0_all.ipk
+Source: update-rc.d_0.8.bb
+Description: manage symlinks in /etc/rcN.d - Debugging files
+OE: update-rc.d
+HomePage: http://github.com/philb/update-rc.d/
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: update-rc.d-dev
+Version: 0.8-r0
+Depends: update-rc.d (= 0.8-r0)
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: d55a5cd2bb0473432462cae93175c5ac
+SHA256sum: 9e8d1e22b9947874dec70af23cbedb2322bd6063af1b7429e38b4e066d16ac44
+Size: 792
+Filename: update-rc.d-dev_0.8-r0_all.ipk
+Source: update-rc.d_0.8.bb
+Description: manage symlinks in /etc/rcN.d - Development files
+OE: update-rc.d
+HomePage: http://github.com/philb/update-rc.d/
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: update-rc.d
+Version: 0.8-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: c2edf8a86b88dac66bd6d25e3f49a8c6
+SHA256sum: 609c6ec8f0916431281fc8c41c8fb6801fc7234f3bcdce390570870ae0ca098a
+Size: 3044
+Filename: update-rc.d_0.8-r0_all.ipk
+Source: update-rc.d_0.8.bb
+Description: manage symlinks in /etc/rcN.d
+OE: update-rc.d
+HomePage: http://github.com/philb/update-rc.d/
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: wireless-regdb-static
+Version: 2024.10.07-r0
+Section: net
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 3718ce8751b7d367098b21e1cdfdf548
+SHA256sum: e9109fa484f25a573bb6b28248d888942a90d130ca216cbef9f94ce6577aa468
+Size: 3848
+Filename: wireless-regdb-static_2024.10.07-r0_all.ipk
+Source: wireless-regdb_2024.10.07.bb
+Description: Wireless Central Regulatory Domain Database
+OE: wireless-regdb
+HomePage: https://wireless.wiki.kernel.org/en/developers/regulatory/crda
+License: ISC
+Priority: optional
+
+Package: wireless-regdb
+Version: 2024.10.07-r0
+Conflicts: wireless-regdb-static
+Suggests: crda
+Section: net
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: edd4aa7b1f82d7e89e22737c6ebe7627
+SHA256sum: 8382b4e8af4199889a4c9ce97f8faea8267d3f87187d4855cc9f9abb57050517
+Size: 3856
+Filename: wireless-regdb_2024.10.07-r0_all.ipk
+Source: wireless-regdb_2024.10.07.bb
+Description: Wireless Central Regulatory Domain Database
+OE: wireless-regdb
+HomePage: https://wireless.wiki.kernel.org/en/developers/regulatory/crda
+License: ISC
+Priority: optional
+
