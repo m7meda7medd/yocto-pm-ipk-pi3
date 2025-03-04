@@ -51033,6 +51033,738 @@ OE: modutils-initscripts
 License: MIT
 Priority: optional
 
+Package: nano-dbg
+Version: 6.2-r0
+Recommends: file-dbg, glibc-dbg, ncurses-libncursesw-dbg, ncurses-libtinfo-dbg
+Section: devel
+Architecture: cortexa53
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: f55bc5fbb24738f71e67bd29131b3e4f
+SHA256sum: e698376f1ab74ecd750b854e4ee0085b6e353ecfdc3071e2c9521fa2b99b079f
+Size: 333774
+Filename: nano-dbg_6.2-r0_cortexa53.ipk
+Source: nano_6.2.bb
+Description: Small and friendly console text editor - Debugging files
+OE: nano
+HomePage: http://www.nano-editor.org/
+License: GPL-3.0-only
+Priority: optional
+
+Package: nano-dev
+Version: 6.2-r0
+Depends: nano (= 6.2-r0)
+Recommends: file-dev, glibc-dev, ncurses-dev, ncurses-libncursesw-dev, ncurses-libtinfo-dev, ncurses-terminfo-base-dev
+Section: devel
+Architecture: cortexa53
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: a4c3c3086897249edf40d46e83acd0dd
+SHA256sum: d34a6f1100a59742767f2fe4501d678e7c9530fdf697516577d2b2e7847fc7cb
+Size: 832
+Filename: nano-dev_6.2-r0_cortexa53.ipk
+Source: nano_6.2.bb
+Description: Small and friendly console text editor - Development files
+OE: nano
+HomePage: http://www.nano-editor.org/
+License: GPL-3.0-only
+Priority: optional
+
+Package: nano-doc
+Version: 6.2-r0
+Section: doc
+Architecture: cortexa53
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: dbf8f3b370378f7e941f19eadc80d20f
+SHA256sum: b2bf55500645ed065ba0899083657f4307a28fafc0db9bdd8b20d760bbf52cc3
+Size: 47094
+Filename: nano-doc_6.2-r0_cortexa53.ipk
+Source: nano_6.2.bb
+Description: Small and friendly console text editor - Documentation files
+OE: nano
+HomePage: http://www.nano-editor.org/
+License: GPL-3.0-only
+Priority: optional
+
+Package: nano-locale-bg
+Version: 6.2-r0
+Provides: bg-translation, nano-locale
+Recommends: virtual-locale-bg
+Section: console/utils
+Architecture: cortexa53
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 814416552ea557b4efeedf7b5ac8f048
+SHA256sum: 7b8442f6c7ba934178a059a545bd4f6dbd6f2059b5c214355a9473a89829c562
+Size: 9122
+Filename: nano-locale-bg_6.2-r0_cortexa53.ipk
+Source: nano_6.2.bb
+Description: Small and friendly console text editor - bg translations
+OE: nano
+HomePage: http://www.nano-editor.org/
+License: GPL-3.0-only
+Priority: optional
+
+Package: nano-locale-ca
+Version: 6.2-r0
+Provides: ca-translation, nano-locale
+Recommends: virtual-locale-ca
+Section: console/utils
+Architecture: cortexa53
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: f0b72364b4897a125388e68dab79fc74
+SHA256sum: 9dc68240f7f01b51671cbcebf676792b8e71cf7c96b826ba90e3f4c8e1e36391
+Size: 19434
+Filename: nano-locale-ca_6.2-r0_cortexa53.ipk
+Source: nano_6.2.bb
+Description: Small and friendly console text editor - ca translations
+OE: nano
+HomePage: http://www.nano-editor.org/
+License: GPL-3.0-only
+Priority: optional
+
+Package: nano-locale-cs
+Version: 6.2-r0
+Provides: cs-translation, nano-locale
+Recommends: virtual-locale-cs
+Section: console/utils
+Architecture: cortexa53
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 122e11b76dd1c6023d7556431559da1a
+SHA256sum: db30f146fb1473c32199125b4f11d367bb6e131169fcbff610543e843544a7e8
+Size: 19378
+Filename: nano-locale-cs_6.2-r0_cortexa53.ipk
+Source: nano_6.2.bb
+Description: Small and friendly console text editor - cs translations
+OE: nano
+HomePage: http://www.nano-editor.org/
+License: GPL-3.0-only
+Priority: optional
+
+Package: nano-locale-da
+Version: 6.2-r0
+Provides: da-translation, nano-locale
+Recommends: virtual-locale-da
+Section: console/utils
+Architecture: cortexa53
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 5d4a7dd6bb02b9ddb8058e38e3000671
+SHA256sum: e47b299b11243d6d63dff4b49dc4f576661d179b8f7af3d161ae9b85a03d4340
+Size: 16822
+Filename: nano-locale-da_6.2-r0_cortexa53.ipk
+Source: nano_6.2.bb
+Description: Small and friendly console text editor - da translations
+OE: nano
+HomePage: http://www.nano-editor.org/
+License: GPL-3.0-only
+Priority: optional
+
+Package: nano-locale-de
+Version: 6.2-r0
+Provides: de-translation, nano-locale
+Recommends: virtual-locale-de
+Section: console/utils
+Architecture: cortexa53
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 6bd389be0c2019a006621275801101a2
+SHA256sum: 2b4c454dda3859291b96ae27184711a22d8feef0a77e7d778259c25db9ca1f76
+Size: 19810
+Filename: nano-locale-de_6.2-r0_cortexa53.ipk
+Source: nano_6.2.bb
+Description: Small and friendly console text editor - de translations
+OE: nano
+HomePage: http://www.nano-editor.org/
+License: GPL-3.0-only
+Priority: optional
+
+Package: nano-locale-eo
+Version: 6.2-r0
+Provides: eo-translation, nano-locale
+Recommends: virtual-locale-eo
+Section: console/utils
+Architecture: cortexa53
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: fd79eb7acc310f81aeb45086f33f15b2
+SHA256sum: 698781cb0cedca9e214a06251b988ca8807c40dd3034201da470d6ecfd56fd70
+Size: 18774
+Filename: nano-locale-eo_6.2-r0_cortexa53.ipk
+Source: nano_6.2.bb
+Description: Small and friendly console text editor - eo translations
+OE: nano
+HomePage: http://www.nano-editor.org/
+License: GPL-3.0-only
+Priority: optional
+
+Package: nano-locale-es
+Version: 6.2-r0
+Provides: es-translation, nano-locale
+Recommends: virtual-locale-es
+Section: console/utils
+Architecture: cortexa53
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 8995012f403be8f06732e2e9c0561a58
+SHA256sum: 47adef028c74989f5d2624240334d8ebdafa1cba136eb0693ab1bd5ce43273c0
+Size: 19382
+Filename: nano-locale-es_6.2-r0_cortexa53.ipk
+Source: nano_6.2.bb
+Description: Small and friendly console text editor - es translations
+OE: nano
+HomePage: http://www.nano-editor.org/
+License: GPL-3.0-only
+Priority: optional
+
+Package: nano-locale-eu
+Version: 6.2-r0
+Provides: eu-translation, nano-locale
+Recommends: virtual-locale-eu
+Section: console/utils
+Architecture: cortexa53
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 7db301782cab9c515fb712414485fe49
+SHA256sum: aa74d24c09940e28b1640866337e006158401dd9c1e7bdd98f0f206e8bae4f75
+Size: 7778
+Filename: nano-locale-eu_6.2-r0_cortexa53.ipk
+Source: nano_6.2.bb
+Description: Small and friendly console text editor - eu translations
+OE: nano
+HomePage: http://www.nano-editor.org/
+License: GPL-3.0-only
+Priority: optional
+
+Package: nano-locale-fi
+Version: 6.2-r0
+Provides: fi-translation, nano-locale
+Recommends: virtual-locale-fi
+Section: console/utils
+Architecture: cortexa53
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: e97e5a1d0b58a9dc7fbb3eb8587f990d
+SHA256sum: 4982cbe89acdbc3f52ac3f42960e2d0107865608dca39f67ee5fd554ef0a7997
+Size: 12474
+Filename: nano-locale-fi_6.2-r0_cortexa53.ipk
+Source: nano_6.2.bb
+Description: Small and friendly console text editor - fi translations
+OE: nano
+HomePage: http://www.nano-editor.org/
+License: GPL-3.0-only
+Priority: optional
+
+Package: nano-locale-fr
+Version: 6.2-r0
+Provides: fr-translation, nano-locale
+Recommends: virtual-locale-fr
+Section: console/utils
+Architecture: cortexa53
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: d8b0e76fa9f5bdabf4e1a01e5e3f91d4
+SHA256sum: aa94660e95243562f911a59542e2ce5bfe84ac3718176b129737ee6a1828e8b1
+Size: 19606
+Filename: nano-locale-fr_6.2-r0_cortexa53.ipk
+Source: nano_6.2.bb
+Description: Small and friendly console text editor - fr translations
+OE: nano
+HomePage: http://www.nano-editor.org/
+License: GPL-3.0-only
+Priority: optional
+
+Package: nano-locale-ga
+Version: 6.2-r0
+Provides: ga-translation, nano-locale
+Recommends: virtual-locale-ga
+Section: console/utils
+Architecture: cortexa53
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 2ec9117180cc025b410119ab0fbdcaee
+SHA256sum: 2f7a007142910179feff3fa32c596a9153441f82d22f3b08e6841d718d5fb757
+Size: 13850
+Filename: nano-locale-ga_6.2-r0_cortexa53.ipk
+Source: nano_6.2.bb
+Description: Small and friendly console text editor - ga translations
+OE: nano
+HomePage: http://www.nano-editor.org/
+License: GPL-3.0-only
+Priority: optional
+
+Package: nano-locale-gl
+Version: 6.2-r0
+Provides: gl-translation, nano-locale
+Recommends: virtual-locale-gl
+Section: console/utils
+Architecture: cortexa53
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: fc66e88499f7cb414222083d1f95e276
+SHA256sum: cd72d8d34510fd881100e707b83497969e0cbba74c217a10915b7d475a6dea45
+Size: 18886
+Filename: nano-locale-gl_6.2-r0_cortexa53.ipk
+Source: nano_6.2.bb
+Description: Small and friendly console text editor - gl translations
+OE: nano
+HomePage: http://www.nano-editor.org/
+License: GPL-3.0-only
+Priority: optional
+
+Package: nano-locale-hr
+Version: 6.2-r0
+Provides: hr-translation, nano-locale
+Recommends: virtual-locale-hr
+Section: console/utils
+Architecture: cortexa53
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 9ae31e7da8d4599b98ca1989c36f77b1
+SHA256sum: 1dfe9fa3d446faca64e0ad9cbb90874e6ed9fb96249da8507d6f89589b1b39de
+Size: 19962
+Filename: nano-locale-hr_6.2-r0_cortexa53.ipk
+Source: nano_6.2.bb
+Description: Small and friendly console text editor - hr translations
+OE: nano
+HomePage: http://www.nano-editor.org/
+License: GPL-3.0-only
+Priority: optional
+
+Package: nano-locale-hu
+Version: 6.2-r0
+Provides: hu-translation, nano-locale
+Recommends: virtual-locale-hu
+Section: console/utils
+Architecture: cortexa53
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 28a475e2486968c8b3b89a408866ae0e
+SHA256sum: 8983740075412f9f6da25c69b53d83c4746b8b9f86db7e9c6d477031412d16e5
+Size: 14158
+Filename: nano-locale-hu_6.2-r0_cortexa53.ipk
+Source: nano_6.2.bb
+Description: Small and friendly console text editor - hu translations
+OE: nano
+HomePage: http://www.nano-editor.org/
+License: GPL-3.0-only
+Priority: optional
+
+Package: nano-locale-id
+Version: 6.2-r0
+Provides: id-translation, nano-locale
+Recommends: virtual-locale-id
+Section: console/utils
+Architecture: cortexa53
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 9279566e80b2a4c46c1eec6bdf54ee72
+SHA256sum: 6d490c92a0419ac3da3cd0314187c38b22fed98e0f0e8b8d52191fc6ee4867be
+Size: 17718
+Filename: nano-locale-id_6.2-r0_cortexa53.ipk
+Source: nano_6.2.bb
+Description: Small and friendly console text editor - id translations
+OE: nano
+HomePage: http://www.nano-editor.org/
+License: GPL-3.0-only
+Priority: optional
+
+Package: nano-locale-is
+Version: 6.2-r0
+Provides: is-translation, nano-locale
+Recommends: virtual-locale-is
+Section: console/utils
+Architecture: cortexa53
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 360731db652a12a36215859f87e786b6
+SHA256sum: bf6c86774a2feca2c2a7bc1c298ba128cb92cfa6b86214d64a66f99d5140a6e9
+Size: 8894
+Filename: nano-locale-is_6.2-r0_cortexa53.ipk
+Source: nano_6.2.bb
+Description: Small and friendly console text editor - is translations
+OE: nano
+HomePage: http://www.nano-editor.org/
+License: GPL-3.0-only
+Priority: optional
+
+Package: nano-locale-it
+Version: 6.2-r0
+Provides: it-translation, nano-locale
+Recommends: virtual-locale-it
+Section: console/utils
+Architecture: cortexa53
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: fe7d46f610e41c2354f09f305f366ba9
+SHA256sum: 11012daacc6e62fa0dad9c4bb8707a4af870984a3ac3b2195d9397b5865ab98f
+Size: 14414
+Filename: nano-locale-it_6.2-r0_cortexa53.ipk
+Source: nano_6.2.bb
+Description: Small and friendly console text editor - it translations
+OE: nano
+HomePage: http://www.nano-editor.org/
+License: GPL-3.0-only
+Priority: optional
+
+Package: nano-locale-ja
+Version: 6.2-r0
+Provides: ja-translation, nano-locale
+Recommends: virtual-locale-ja
+Section: console/utils
+Architecture: cortexa53
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: c2094200cb344a31a14118f2cc0c46e2
+SHA256sum: c509e41b74695092e5809064983f016805bd32d9a390324d56fd9d0096942261
+Size: 19776
+Filename: nano-locale-ja_6.2-r0_cortexa53.ipk
+Source: nano_6.2.bb
+Description: Small and friendly console text editor - ja translations
+OE: nano
+HomePage: http://www.nano-editor.org/
+License: GPL-3.0-only
+Priority: optional
+
+Package: nano-locale-ko
+Version: 6.2-r0
+Provides: ko-translation, nano-locale
+Recommends: virtual-locale-ko
+Section: console/utils
+Architecture: cortexa53
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 8d66ef25202663a6a73a9adbcc210396
+SHA256sum: 75b641aca47b985a4ffe2b5f90f676f9bb713346539ed756c2a315b9c2135770
+Size: 19586
+Filename: nano-locale-ko_6.2-r0_cortexa53.ipk
+Source: nano_6.2.bb
+Description: Small and friendly console text editor - ko translations
+OE: nano
+HomePage: http://www.nano-editor.org/
+License: GPL-3.0-only
+Priority: optional
+
+Package: nano-locale-ms
+Version: 6.2-r0
+Provides: ms-translation, nano-locale
+Recommends: virtual-locale-ms
+Section: console/utils
+Architecture: cortexa53
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 1c0848a069826c35c40ca0561204875f
+SHA256sum: ecb63c46baaa0c3ac13713373c047cf767f80314635c6982e5ba8a4b3d990217
+Size: 11886
+Filename: nano-locale-ms_6.2-r0_cortexa53.ipk
+Source: nano_6.2.bb
+Description: Small and friendly console text editor - ms translations
+OE: nano
+HomePage: http://www.nano-editor.org/
+License: GPL-3.0-only
+Priority: optional
+
+Package: nano-locale-nb
+Version: 6.2-r0
+Provides: nano-locale, nb-translation
+Recommends: virtual-locale-nb
+Section: console/utils
+Architecture: cortexa53
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 6bd7907fbb417fe0ef729c65ef09bae4
+SHA256sum: ebd49e67e937281d5c5f941026dbdde79e83e268c2c319bf69493e78709ba821
+Size: 18778
+Filename: nano-locale-nb_6.2-r0_cortexa53.ipk
+Source: nano_6.2.bb
+Description: Small and friendly console text editor - nb translations
+OE: nano
+HomePage: http://www.nano-editor.org/
+License: GPL-3.0-only
+Priority: optional
+
+Package: nano-locale-nl
+Version: 6.2-r0
+Provides: nano-locale, nl-translation
+Recommends: virtual-locale-nl
+Section: console/utils
+Architecture: cortexa53
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 86a66481a56dd89772ddd60407615b3b
+SHA256sum: 0c0bb2b0f305a767e96a9939de6d8d2b3af20ff0c48a40bbe78fbc9c59e8cd86
+Size: 19010
+Filename: nano-locale-nl_6.2-r0_cortexa53.ipk
+Source: nano_6.2.bb
+Description: Small and friendly console text editor - nl translations
+OE: nano
+HomePage: http://www.nano-editor.org/
+License: GPL-3.0-only
+Priority: optional
+
+Package: nano-locale-pl
+Version: 6.2-r0
+Provides: nano-locale, pl-translation
+Recommends: virtual-locale-pl
+Section: console/utils
+Architecture: cortexa53
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 8644ce62761f2a86da649ca9fc1035cf
+SHA256sum: 64fdc32adf29a8cff35647cac356f67328c41e56e239c7185d27c057082390ef
+Size: 19458
+Filename: nano-locale-pl_6.2-r0_cortexa53.ipk
+Source: nano_6.2.bb
+Description: Small and friendly console text editor - pl translations
+OE: nano
+HomePage: http://www.nano-editor.org/
+License: GPL-3.0-only
+Priority: optional
+
+Package: nano-locale-pt-br
+Version: 6.2-r0
+Provides: nano-locale, pt-br-translation
+Recommends: virtual-locale-pt-br
+Section: console/utils
+Architecture: cortexa53
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 7980b736d62d06cadfecf67af0518992
+SHA256sum: 97d7a59de787ba74a12b79a79be024fa0f160bb5ee08f8f255b82213778b209b
+Size: 18952
+Filename: nano-locale-pt-br_6.2-r0_cortexa53.ipk
+Source: nano_6.2.bb
+Description: Small and friendly console text editor - pt_BR translations
+OE: nano
+HomePage: http://www.nano-editor.org/
+License: GPL-3.0-only
+Priority: optional
+
+Package: nano-locale-pt
+Version: 6.2-r0
+Provides: nano-locale, pt-translation
+Recommends: virtual-locale-pt
+Section: console/utils
+Architecture: cortexa53
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: bc4e403c8519dc3fbb9a12350f824de0
+SHA256sum: a049462177ef014b8af7bfa245e9e3bc062273da25f0c85cb6d78905a2f81a70
+Size: 18502
+Filename: nano-locale-pt_6.2-r0_cortexa53.ipk
+Source: nano_6.2.bb
+Description: Small and friendly console text editor - pt translations
+OE: nano
+HomePage: http://www.nano-editor.org/
+License: GPL-3.0-only
+Priority: optional
+
+Package: nano-locale-ro
+Version: 6.2-r0
+Provides: nano-locale, ro-translation
+Recommends: virtual-locale-ro
+Section: console/utils
+Architecture: cortexa53
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: c4792dcc618dd3913f12b71417c792f0
+SHA256sum: 4fcb540e3d1bf1380a2a9e44b9456327b103cc284f504a578742f8c7126654c2
+Size: 19612
+Filename: nano-locale-ro_6.2-r0_cortexa53.ipk
+Source: nano_6.2.bb
+Description: Small and friendly console text editor - ro translations
+OE: nano
+HomePage: http://www.nano-editor.org/
+License: GPL-3.0-only
+Priority: optional
+
+Package: nano-locale-ru
+Version: 6.2-r0
+Provides: nano-locale, ru-translation
+Recommends: virtual-locale-ru
+Section: console/utils
+Architecture: cortexa53
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: ba401eb744d688334dcaa04db8e2891f
+SHA256sum: d6c9ef21a73c562462f4bb39357fc5e2ea53d4fe3b9b2387c56a7dcd784b0926
+Size: 20486
+Filename: nano-locale-ru_6.2-r0_cortexa53.ipk
+Source: nano_6.2.bb
+Description: Small and friendly console text editor - ru translations
+OE: nano
+HomePage: http://www.nano-editor.org/
+License: GPL-3.0-only
+Priority: optional
+
+Package: nano-locale-sk
+Version: 6.2-r0
+Provides: nano-locale, sk-translation
+Recommends: virtual-locale-sk
+Section: console/utils
+Architecture: cortexa53
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: c0880d2f0cea77ac47ea81d8086a3ea0
+SHA256sum: 39160b8943401b0264358e96ae05b16c90ef1a0fdcffaa96081e5f81a6c472cc
+Size: 19918
+Filename: nano-locale-sk_6.2-r0_cortexa53.ipk
+Source: nano_6.2.bb
+Description: Small and friendly console text editor - sk translations
+OE: nano
+HomePage: http://www.nano-editor.org/
+License: GPL-3.0-only
+Priority: optional
+
+Package: nano-locale-sl
+Version: 6.2-r0
+Provides: nano-locale, sl-translation
+Recommends: virtual-locale-sl
+Section: console/utils
+Architecture: cortexa53
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 9d8152068e7ecc439be9ba267f8f4ed9
+SHA256sum: f62748525d347723458b97d5a68e0036a4760d2825e231d8028287dbe6d3bd66
+Size: 9154
+Filename: nano-locale-sl_6.2-r0_cortexa53.ipk
+Source: nano_6.2.bb
+Description: Small and friendly console text editor - sl translations
+OE: nano
+HomePage: http://www.nano-editor.org/
+License: GPL-3.0-only
+Priority: optional
+
+Package: nano-locale-sr
+Version: 6.2-r0
+Provides: nano-locale, sr-translation
+Recommends: virtual-locale-sr
+Section: console/utils
+Architecture: cortexa53
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 55121095bf26f8ddb4ef6b8f7b9a36ca
+SHA256sum: d0576a6d7f59182154921097ade0251e7489f06e67a0e5f8962d6ff01a21e142
+Size: 20726
+Filename: nano-locale-sr_6.2-r0_cortexa53.ipk
+Source: nano_6.2.bb
+Description: Small and friendly console text editor - sr translations
+OE: nano
+HomePage: http://www.nano-editor.org/
+License: GPL-3.0-only
+Priority: optional
+
+Package: nano-locale-sv
+Version: 6.2-r0
+Provides: nano-locale, sv-translation
+Recommends: virtual-locale-sv
+Section: console/utils
+Architecture: cortexa53
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: a2dd62769da7175261eff29e1483fe25
+SHA256sum: e1900bd76be47effac7190d7d96b0aae5105adfac10e93cb1e134f765d99d5b2
+Size: 18842
+Filename: nano-locale-sv_6.2-r0_cortexa53.ipk
+Source: nano_6.2.bb
+Description: Small and friendly console text editor - sv translations
+OE: nano
+HomePage: http://www.nano-editor.org/
+License: GPL-3.0-only
+Priority: optional
+
+Package: nano-locale-tr
+Version: 6.2-r0
+Provides: nano-locale, tr-translation
+Recommends: virtual-locale-tr
+Section: console/utils
+Architecture: cortexa53
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: c7eed6cae6a9e96b98d1e0f0c2e6da5e
+SHA256sum: 8987e276e669d7ac29437ca7b56b3f5c8668be7b720cb7543cbcc2c9de5328d6
+Size: 19594
+Filename: nano-locale-tr_6.2-r0_cortexa53.ipk
+Source: nano_6.2.bb
+Description: Small and friendly console text editor - tr translations
+OE: nano
+HomePage: http://www.nano-editor.org/
+License: GPL-3.0-only
+Priority: optional
+
+Package: nano-locale-uk
+Version: 6.2-r0
+Provides: nano-locale, uk-translation
+Recommends: virtual-locale-uk
+Section: console/utils
+Architecture: cortexa53
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 8881ce0b6c983f53ad0622c4431848ad
+SHA256sum: d1231766cad47651cc63e272cda110a83e5a3e9c998285e3e5f92e986c5fc67f
+Size: 21172
+Filename: nano-locale-uk_6.2-r0_cortexa53.ipk
+Source: nano_6.2.bb
+Description: Small and friendly console text editor - uk translations
+OE: nano
+HomePage: http://www.nano-editor.org/
+License: GPL-3.0-only
+Priority: optional
+
+Package: nano-locale-vi
+Version: 6.2-r0
+Provides: nano-locale, vi-translation
+Recommends: virtual-locale-vi
+Section: console/utils
+Architecture: cortexa53
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: cbe84a5dcf87b0ebdced5baa4ac3fa58
+SHA256sum: 50d9e080dc0bfed6ff28ea40aa850b3c8d5ed763241432a017e468dd7507bd69
+Size: 15418
+Filename: nano-locale-vi_6.2-r0_cortexa53.ipk
+Source: nano_6.2.bb
+Description: Small and friendly console text editor - vi translations
+OE: nano
+HomePage: http://www.nano-editor.org/
+License: GPL-3.0-only
+Priority: optional
+
+Package: nano-locale-zh-cn
+Version: 6.2-r0
+Provides: nano-locale, zh-cn-translation
+Recommends: virtual-locale-zh-cn
+Section: console/utils
+Architecture: cortexa53
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: f4cbbff82c86ff4265e88957439b8979
+SHA256sum: 9e55938b0cf15fd985b1a34ffc1c3f6336d304d28299d1ec3b0bfb443904c723
+Size: 19114
+Filename: nano-locale-zh-cn_6.2-r0_cortexa53.ipk
+Source: nano_6.2.bb
+Description: Small and friendly console text editor - zh_CN translations
+OE: nano
+HomePage: http://www.nano-editor.org/
+License: GPL-3.0-only
+Priority: optional
+
+Package: nano-locale-zh-tw
+Version: 6.2-r0
+Provides: nano-locale, zh-tw-translation
+Recommends: virtual-locale-zh-tw
+Section: console/utils
+Architecture: cortexa53
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 33e23118b614d9b50130f15ddf236466
+SHA256sum: 681bd96b0e559f5d10caa39c8f4a124001532a0138a4d511e9e6835a793e92b8
+Size: 19134
+Filename: nano-locale-zh-tw_6.2-r0_cortexa53.ipk
+Source: nano_6.2.bb
+Description: Small and friendly console text editor - zh_TW translations
+OE: nano
+HomePage: http://www.nano-editor.org/
+License: GPL-3.0-only
+Priority: optional
+
+Package: nano-src
+Version: 6.2-r0
+Section: devel
+Architecture: cortexa53
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 92a4b5e4516132ef0ea4116b7cdc9f54
+SHA256sum: 7eecefad80ffeb2289559cdb2520270c4eee00ad085be6c7e9b4ccfcab49854b
+Size: 260204
+Filename: nano-src_6.2-r0_cortexa53.ipk
+Source: nano_6.2.bb
+Description: Small and friendly console text editor - Source files
+OE: nano
+HomePage: http://www.nano-editor.org/
+License: GPL-3.0-only
+Priority: optional
+
+Package: nano
+Version: 6.2-r0
+Depends: file (>= 5.41), libc6 (>= 2.35), libncursesw5 (>= 6.3+20220423), libtinfo5 (>= 6.3+20220423), ncurses-terminfo-base
+Section: console/utils
+Architecture: cortexa53
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: c9c6fa192d2285ae7165f13ecdc104a6
+SHA256sum: 76c4a9c8205a642657505c6e7f6d2579870f402d6dd777fc76e9698647cdc112
+Size: 153268
+Filename: nano_6.2-r0_cortexa53.ipk
+Source: nano_6.2.bb
+Description: Small and friendly console text editor
+OE: nano
+HomePage: http://www.nano-editor.org/
+License: GPL-3.0-only
+Priority: optional
+
 Package: ncurses-dbg
 Version: 6.3+20220423-r0
 Recommends: glibc-dbg, ncurses-libncurses-dbg, ncurses-libncursesw-dbg, ncurses-libtic-dbg, ncurses-libtinfo-dbg
