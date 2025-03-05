@@ -1,3 +1,91 @@
+Package: adwaita-icon-theme-cursors
+Version: 41.0-r0
+Depends: gdk-pixbuf, gtk+3, hicolor-icon-theme
+Section: x11/gnome
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 4210bc457e6f7997e97c00c4456dbe99
+SHA256sum: c252b86e4bc15f8ac3ac95323783b456304a28b087ee8853d3707091588379a4
+Size: 495008
+Filename: adwaita-icon-theme-cursors_41.0-r0_all.ipk
+Source: adwaita-icon-theme_41.0.bb
+Description: GTK+ icon theme
+OE: adwaita-icon-theme
+HomePage: https://gitlab.gnome.org/GNOME/adwaita-icon-theme
+License: LGPL-3.0-only | CC-BY-SA-3.0
+Priority: optional
+
+Package: adwaita-icon-theme-hires
+Version: 41.0-r0
+Depends: gdk-pixbuf, gtk+3, hicolor-icon-theme
+Section: x11/gnome
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 660db3492ffac818a9bf3235fc8905a9
+SHA256sum: 66cc7a273e09acc8d285f7ee7bf617416c85bd208cddd1208931471268d2eee7
+Size: 6354124
+Filename: adwaita-icon-theme-hires_41.0-r0_all.ipk
+Source: adwaita-icon-theme_41.0.bb
+Description: GTK+ icon theme
+OE: adwaita-icon-theme
+HomePage: https://gitlab.gnome.org/GNOME/adwaita-icon-theme
+License: LGPL-3.0-only | CC-BY-SA-3.0
+Priority: optional
+
+Package: adwaita-icon-theme-symbolic-hires
+Version: 41.0-r0
+Depends: gdk-pixbuf, gtk+3, hicolor-icon-theme
+Section: x11/gnome
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 761e6e2aa1bbf55cab83e18ed52bda84
+SHA256sum: 579f4ea55d5605bfae8757f46984dd76e09ca2ac7b4d805bd427f6d0bde7c505
+Size: 1402924
+Filename: adwaita-icon-theme-symbolic-hires_41.0-r0_all.ipk
+Source: adwaita-icon-theme_41.0.bb
+Description: GTK+ icon theme
+OE: adwaita-icon-theme
+HomePage: https://gitlab.gnome.org/GNOME/adwaita-icon-theme
+License: LGPL-3.0-only | CC-BY-SA-3.0
+Priority: optional
+
+Package: adwaita-icon-theme-symbolic
+Version: 41.0-r0
+Depends: gdk-pixbuf, gtk+3, hicolor-icon-theme
+Section: x11/gnome
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: a7a7dba171b1330966834d371be8918c
+SHA256sum: 8874412787718f096c04bf1e44a4f2f985efd6f4a8687f0d85ce309b376fa4c6
+Size: 344042
+Filename: adwaita-icon-theme-symbolic_41.0-r0_all.ipk
+Source: adwaita-icon-theme_41.0.bb
+Description: GTK+ icon theme
+OE: adwaita-icon-theme
+HomePage: https://gitlab.gnome.org/GNOME/adwaita-icon-theme
+License: LGPL-3.0-only | CC-BY-SA-3.0
+Priority: optional
+
+Package: adwaita-icon-theme
+Version: 41.0-r0
+Depends: gdk-pixbuf, gtk+3, hicolor-icon-theme
+Provides: gnome-icon-theme
+Replaces: gnome-icon-theme
+Conflicts: gnome-icon-theme
+Section: x11/gnome
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 6ae677650494be8de3a6eab1e63ddd17
+SHA256sum: 978ba035d78a8dc274ecf7b9fa542f9bf8bb962f5e62ae72fb30b2d95c1d2e8d
+Size: 2050428
+Filename: adwaita-icon-theme_41.0-r0_all.ipk
+Source: adwaita-icon-theme_41.0.bb
+Description: GTK+ icon theme
+OE: adwaita-icon-theme
+HomePage: https://gitlab.gnome.org/GNOME/adwaita-icon-theme
+License: LGPL-3.0-only | CC-BY-SA-3.0
+Priority: optional
+
 Package: alsa-topology-conf
 Version: 1.2.5.1-r0
 Section: base
@@ -217,6 +305,72 @@ HomePage: http://packages.debian.org/sid/ca-certificates
 License: GPL-2.0-or-later & MPL-2.0
 Priority: optional
 
+Package: hicolor-icon-theme-dbg
+Version: 0.17-r0
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 39894460a95657d5558a58366050683a
+SHA256sum: 60f2f22620a52ed0e0507f6d73e4a7b69d9848470874c7a25569685234d986c7
+Size: 784
+Filename: hicolor-icon-theme-dbg_0.17-r0_all.ipk
+Source: hicolor-icon-theme_0.17.bb
+Description: Default icon theme that all icon themes automatically inherit from - Debugging files
+OE: hicolor-icon-theme
+HomePage: https://www.freedesktop.org/wiki/Software/icon-theme
+License: GPL-2.0-only
+Priority: optional
+
+Package: hicolor-icon-theme-dev
+Version: 0.17-r0
+Depends: hicolor-icon-theme (= 0.17-r0)
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 189ca216934e17e93cccd4518a5d66d4
+SHA256sum: 8753045dafac617b9157f4ad17e958e85b331c3d1c368f253c6468c3673e9f54
+Size: 810
+Filename: hicolor-icon-theme-dev_0.17-r0_all.ipk
+Source: hicolor-icon-theme_0.17.bb
+Description: Default icon theme that all icon themes automatically inherit from - Development files
+OE: hicolor-icon-theme
+HomePage: https://www.freedesktop.org/wiki/Software/icon-theme
+License: GPL-2.0-only
+Priority: optional
+
+Package: hicolor-icon-theme
+Version: 0.17-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: e0458582fac84714b66032c2a97e461c
+SHA256sum: b74c907ced8b10f648a94982f384364f7c606316fae28ec71ae7d4a8272c80df
+Size: 6560
+Filename: hicolor-icon-theme_0.17-r0_all.ipk
+Source: hicolor-icon-theme_0.17.bb
+Description: Default icon theme that all icon themes automatically inherit from
+OE: hicolor-icon-theme
+HomePage: https://www.freedesktop.org/wiki/Software/icon-theme
+License: GPL-2.0-only
+Priority: optional
+
+Package: liberation-fonts
+Version: 1:2.1.5-r0
+Depends: fontconfig-utils
+Section: x11/fonts
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 187f1a7c58c2cdad6ba32065da8b2853
+SHA256sum: 3250e2105a909ab87aa9e6afa80b04982aac203bf938b7da32e87e72074864b8
+Size: 1471260
+Filename: liberation-fonts_2.1.5-r0_all.ipk
+Source: liberation-fonts_2.1.5.bb
+Description: Liberation(tm) Fonts
+OE: liberation-fonts
+HomePage: https://github.com/liberationfonts/liberation-fonts
+License: OFL-1.1
+Priority: optional
+
 Package: linux-firmware-rpidistro-bcm43430
 Version: 20210315-3+rpt4-r0
 Depends: linux-firmware-rpidistro-broadcom-license
@@ -377,6 +531,68 @@ HomePage: http://packages.debian.org/netbase
 License: GPL-2.0-only
 Priority: optional
 
+Package: os-release-dbg
+Version: 1.0-r0
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 47260cf513e703cb3db97597bef56b8e
+SHA256sum: 122e7d30acded3279fa94fc68a2862872e59ee4c99254faee262694bd7dba1ae
+Size: 688
+Filename: os-release-dbg_1.0-r0_all.ipk
+Source: os-release.bb
+Description: Operating system identification - Debugging files
+OE: os-release
+License: MIT
+Priority: optional
+
+Package: os-release-dev
+Version: 1.0-r0
+Depends: os-release (= 1.0-r0)
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 67142c7d358cbb54a1f03379848e1e16
+SHA256sum: 8aaaed953de3d188f1fc631e276eb3a0fa067fbf7dd5061c04b2d6ecf5cc834e
+Size: 718
+Filename: os-release-dev_1.0-r0_all.ipk
+Source: os-release.bb
+Description: Operating system identification - Development files
+OE: os-release
+License: MIT
+Priority: optional
+
+Package: os-release-initrd
+Version: 1.0-r0
+Depends: os-release
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: d5458e900338b888a883dc6123b98d86
+SHA256sum: f14413b9ae44e003630e9851e715a7ecbe71d48f4ae3f519bda97b8df8695b7d
+Size: 740
+Filename: os-release-initrd_1.0-r0_all.ipk
+Source: os-release.bb
+Description: Operating system identification
+OE: os-release
+License: MIT
+Priority: optional
+
+Package: os-release
+Version: 1.0-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: f01e8f3c0228e5902fb31db59554d71b
+SHA256sum: 506774cd47418d612f11acda800c950559f47f28789920fece0b8b92bb05f4c8
+Size: 846
+Filename: os-release_1.0-r0_all.ipk
+Source: os-release.bb
+Description: Operating system identification
+OE: os-release
+License: MIT
+Priority: optional
+
 Package: packagegroup-core-ssh-openssh-dbg
 Version: 1.0-r1
 Recommends: openssh-dbg
@@ -444,13 +660,12 @@ Priority: optional
 Package: run-postinsts-dev
 Version: 1.0-r10
 Depends: run-postinsts (= 1.0-r10)
-Recommends: initscripts-dev, update-rc.d-dev
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 7f0c81f4af2a12a05b412fc25d7bf0c8
-SHA256sum: 2629f3d42a79288571d049e4ef4ec4efc24ad8761f874e7f3edb79ba066f51de
-Size: 744
+MD5Sum: f9c61337cc7fe75bfec228dca077eb0c
+SHA256sum: 6ea8cede3fd95edc8f60b1bf1c61b54a3573f6ea590795d0c2cfcda4c07e2f94
+Size: 720
 Filename: run-postinsts-dev_1.0-r10_all.ipk
 Source: run-postinsts_1.0.bb
 Description: Runs postinstall scripts on first boot of the target device - Development files
@@ -460,13 +675,12 @@ Priority: optional
 
 Package: run-postinsts
 Version: 1.0-r10
-Recommends: update-rc.d
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 8e77459d177d886b7753c67c53a22b89
-SHA256sum: e07df8a99e49cb349002910afeb80088c979196f169a585b104715bee40eb476
-Size: 1876
+MD5Sum: 02a3c1d82f58243a034992bafd914028
+SHA256sum: b2afcaa213e1e53c89502eb26531bbb70e0ac301f23759b4f4996a20bbcee940
+Size: 2150
 Filename: run-postinsts_1.0-r10_all.ipk
 Source: run-postinsts_1.0.bb
 Description: Runs postinstall scripts on first boot of the target device
@@ -521,6 +735,52 @@ Description: manage symlinks in /etc/rcN.d
 OE: update-rc.d
 HomePage: http://github.com/philb/update-rc.d/
 License: GPL-2.0-or-later
+Priority: optional
+
+Package: volatile-binds-dbg
+Version: 1.0-r0
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 0066948db398b426ea585d161d7a54d3
+SHA256sum: 9b019634a2edbdb42d0573fe4ae4cc4cebfdab711ecf24b5fddc73a9e55db20e
+Size: 690
+Filename: volatile-binds-dbg_1.0-r0_all.ipk
+Source: volatile-binds.bb
+Description: Volatile bind mount setup and configuration for read-only-rootfs - Debugging files
+OE: volatile-binds
+License: MIT
+Priority: optional
+
+Package: volatile-binds-dev
+Version: 1.0-r0
+Depends: volatile-binds (= 1.0-r0)
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 4875987f2a45e02b6f48d10df654d0c3
+SHA256sum: 958679e4e81221618516645e46d6a283ce9061b673188707a03142068061ce7b
+Size: 718
+Filename: volatile-binds-dev_1.0-r0_all.ipk
+Source: volatile-binds.bb
+Description: Volatile bind mount setup and configuration for read-only-rootfs - Development files
+OE: volatile-binds
+License: MIT
+Priority: optional
+
+Package: volatile-binds
+Version: 1.0-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 1fe2f5276e4d6a4a8ea2654a69482062
+SHA256sum: facbae16dcd1839f7f67a2f96407f3cd8db24d5398cb3903675633a5f6195ec6
+Size: 2460
+Filename: volatile-binds_1.0-r0_all.ipk
+Source: volatile-binds.bb
+Description: Volatile bind mount setup and configuration for read-only-rootfs
+OE: volatile-binds
+License: MIT
 Priority: optional
 
 Package: wireless-regdb-static
